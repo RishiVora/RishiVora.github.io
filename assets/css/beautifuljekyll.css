@@ -643,11 +643,12 @@ footer .footer-custom-content {
   align-items: center;
 }
 .intro-header.big-img {
-  background: no-repeat center center;
+  background:no-repeat center center;
+  background-image: linear-gradient(70deg,transparent,black);
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   margin-top: 3.1875rem; /* The small navbar is 50px tall + 1px border */
   margin-bottom: 2.1875rem;
 }
@@ -1127,3 +1128,5 @@ pre {
     display: inline-block;
   }
 }
+
+
