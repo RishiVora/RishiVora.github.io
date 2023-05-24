@@ -2,6 +2,7 @@
 title: Schrodinger's Week is dead, long live Grand Canonical Ensemble!
 tags: [GCE-2023]
 layout: post
+
 ---
 
 **Hey everyone!**
