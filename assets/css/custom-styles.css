@@ -8,9 +8,9 @@ layout: null
 
 .card {
     position: relative;
-    background-color: #0E1116;
-    border: 1px solid rgb(255 255 255 / 5%);
-    border-top: #0E111600;
+    background: linear-gradient(-45deg, #0E1116, #151a22) padding-box,
+                linear-gradient(-45deg, #0E1116, rgb(255 255 255 / 5%)) border-box;
+    border: 2px solid transparent;
     border-radius: 1.5rem;
     padding: 1rem;
     margin: 30px 0;
@@ -42,7 +42,7 @@ layout: null
 }
 
 .card:hover:after {
-    top: 25%;
+    top: 8%;
     opacity: 1;
 }
 
@@ -81,8 +81,39 @@ layout: null
 
 .post-meta {
     color: #bbbbbb;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: medium;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
-.post-read-more {
+.post-read-more:hover {
     color: #6274a1;
+}
+
+.page-link {
+    background: linear-gradient(-45deg, #7664e4, #5b4db1) padding-box,
+                linear-gradient(-45deg, #0E1116, rgb(255 255 255 / 5%)) border-box;
+    border: 0px solid transparent;
+    border-radius: 50px !important;
+}
+
+.dropdown {
+    background-color: transparent !important;
+}
+
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.);
+    border-radius: 0.8rem;
+}
+
+.separator {
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 20%;
+    justify-self: center;
+}
+
+.separator:last-child {
+    background-color: transparent !important;
 }
